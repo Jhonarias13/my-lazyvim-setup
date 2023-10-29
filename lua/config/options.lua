@@ -3,7 +3,7 @@
 -- Add any additional options here
 
 vim.opt.number = true
-vim.opt.relativenumber = false
+-- vim.opt.relativenumber = false
 
 -- This keybinding uses kj as the scape key to exit a mode
 vim.api.nvim_set_keymap("i", "kj", "<ESC>", { noremap = true })
