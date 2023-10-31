@@ -19,10 +19,12 @@ return {
 
   { "navarasu/onedark.nvim", opts = { style = "deep" } },
 
+  { "luisiacc/gruvbox-baby", branch = "main" },
+
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "onedark",
+      colorscheme = "gruvbox-baby",
     },
   },
 }
