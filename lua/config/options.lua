@@ -20,3 +20,5 @@ vim.keymap.set("n", "<Leader>kj", "zR")
 --
 -- Configuración específica para nvim-notify
 vim.g.notify_position = "topleft"
+
+vim.keymap.set("n", "<leader>th", ":Telescope themes<CR>", { noremap = true, silent = true, desc = "Theme Switcher" })

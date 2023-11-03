@@ -14,7 +14,20 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.typescript" },
     { import = "lazyvim.plugins.extras.lang.json" },
     -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
-
+    {
+      "nvim-telescope/telescope.nvim",
+      cmd = "Telescope",
+      lazy = true,
+      dependencies = {
+        "andrew-george/telescope-themes",
+        -- your other dependencies
+      },
+      config = function()
+        -- load extension
+        local telescope = require("telescope")
+        telescope.load_extension("themes")
+      end,
+    },
     -- import/override with your plugins
     { import = "plugins" },
   },
