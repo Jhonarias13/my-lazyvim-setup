@@ -3,15 +3,25 @@ return {
 
   { "tjdevries/colorbuddy.nvim", branch = "dev" },
 
-  -- andromeda
   {
     "nobbmaestro/nvim-andromeda",
     requires = { "tjdevries/colorbuddy.nvim", branch = "dev" },
   },
 
-  { "folke/tokyonight.nvim" },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
 
-  { "catppuccin/nvim", name = "catppuccin", lazy = false, opts = { flavour = "macchiato" } },
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    lazy = false,
+    ---@class CatppuccinoOptions
+    opts = { flavour = "macchiato", transparent_background = true },
+  },
 
   { "bluz71/vim-nightfly-colors", name = "nightfly", lazy = false },
 
@@ -21,10 +31,14 @@ return {
 
   { "luisiacc/gruvbox-baby", branch = "main" },
 
+  { "ayu-theme/ayu-vim" },
+
+  { "rafi/awesome-vim-colorschemes" },
+
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "night-owl",
+      colorscheme = "PaperColor",
     },
   },
 }
