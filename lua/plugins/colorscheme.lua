@@ -27,14 +27,13 @@ return {
 
   { "mhartington/oceanic-next" },
 
-  { "navarasu/onedark.nvim", opts = { style = "dark", transparent = true } },
+  { "navarasu/onedark.nvim", opts = { style = "darker", transparent = true } },
 
   { "luisiacc/gruvbox-baby", branch = "main" },
 
   { "ayu-theme/ayu-vim" },
 
   { "rafi/awesome-vim-colorschemes" },
-  { "" },
 
   {
     "LazyVim/LazyVim",

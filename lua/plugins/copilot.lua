@@ -9,6 +9,8 @@ return {
       filetypes = {
         markdown = true,
         help = true,
+        javascript = true,
+        typescript = true,
       },
     },
   },
