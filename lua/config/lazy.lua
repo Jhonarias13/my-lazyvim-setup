@@ -59,17 +59,3 @@ require("lazy").setup({
     },
   },
 })
-
--- show sidebar to right window
-require("neo-tree").setup({
-  window = {
-    position = "right",
-  },
-})
-
--- setting notifications
-require("notify").setup({
-  render = "wrapped-compact",
-  stages = "static",
-  timeout = 3000,
-})

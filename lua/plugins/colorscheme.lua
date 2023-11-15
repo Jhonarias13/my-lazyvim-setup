@@ -20,25 +20,26 @@ return {
     name = "catppuccin",
     lazy = false,
     ---@class CatppuccinoOptions
-    opts = { flavour = "macchiato", transparent_background = true },
+    opts = { flavour = "macchiato" },
   },
 
   { "bluz71/vim-nightfly-colors", name = "nightfly", lazy = false },
 
   { "mhartington/oceanic-next" },
 
-  { "navarasu/onedark.nvim", opts = { style = "deep" } },
+  { "navarasu/onedark.nvim", opts = { style = "dark", transparent = true } },
 
   { "luisiacc/gruvbox-baby", branch = "main" },
 
   { "ayu-theme/ayu-vim" },
 
   { "rafi/awesome-vim-colorschemes" },
+  { "" },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "PaperColor",
+      colorscheme = "onedark",
     },
   },
 }
