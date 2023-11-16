@@ -22,7 +22,7 @@ map("n", "<S-tab>", "<cmd>bnext<cr>", { desc = "Next buffer" })
 
 -- Split View
 map({ "n" }, "ss", ":split<Return>", { silent = true, noremap = true, desc = "Split view Horizontal" })
-map({ "n" }, "sv", ":vplit<Return>", { silent = true, noremap = true, desc = "Split view Vertical" })
+map({ "n" }, "sv", ":vsplit<Return>", { silent = true, noremap = true, desc = "Split view Vertical" })
 
 -- Inc rename
 map({ "n", "i" }, "<leader>rn", ":IncRename ", { desc = "Rename variable" })

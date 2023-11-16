@@ -20,6 +20,8 @@ require("lazy").setup({
         },
       },
     },
+
+    { "plugins.colorscheme.lua" },
     {
       "nvim-telescope/telescope.nvim",
       cmd = "Telescope",
