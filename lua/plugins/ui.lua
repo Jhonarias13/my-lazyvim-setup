@@ -146,6 +146,8 @@ return {
     keys = { { "<leader>z", "<cmd>ZenMode<cr>", desc = "Zen Mode" } },
   },
 
+  { "nvim-neo-tree/neo-tree.nvim", opts = { window = { position = "right" } } },
+
   {
     "nvimdev/dashboard-nvim",
     event = "VimEnter",
@@ -159,7 +161,6 @@ return {
 ╚█████╔╝██║  ██║╚██████╔╝██║ ╚████║    ██║  ██║██║  ██║██║██║  ██║███████║
  ╚════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚══════╝
                                                                           
-
       ]]
 
       logo = string.rep("\n", 8) .. logo .. "\n\n"

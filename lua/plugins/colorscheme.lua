@@ -11,7 +11,6 @@ return {
   {
     "folke/tokyonight.nvim",
     lazy = false,
-    priority = 1000,
     opts = {},
   },
 
@@ -27,7 +26,7 @@ return {
 
   { "mhartington/oceanic-next" },
 
-  { "navarasu/onedark.nvim", opts = { style = "darker", transparent = true } },
+  { "navarasu/onedark.nvim", priority = 1000, lazy = false, opts = { style = "deep", transparent = true } },
 
   { "luisiacc/gruvbox-baby", branch = "main" },
 
