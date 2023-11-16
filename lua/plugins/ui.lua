@@ -53,6 +53,7 @@ return {
     end,
   },
 
+  --  notifications config
   {
     "rcarriga/nvim-notify",
     opts = {
@@ -96,7 +97,7 @@ return {
     opts = {
       options = {
         -- globalstatus = false,
-        theme = "solarized_dark",
+        theme = "onedark",
       },
     },
   },
@@ -146,8 +147,10 @@ return {
     keys = { { "<leader>z", "<cmd>ZenMode<cr>", desc = "Zen Mode" } },
   },
 
+  -- neo tree config
   { "nvim-neo-tree/neo-tree.nvim", opts = { window = { position = "right" } } },
 
+  -- dashboard config
   {
     "nvimdev/dashboard-nvim",
     event = "VimEnter",
