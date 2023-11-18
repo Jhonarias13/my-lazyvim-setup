@@ -25,4 +25,7 @@ map({ "n" }, "ss", ":split<Return>", { silent = true, noremap = true, desc = "Sp
 map({ "n" }, "sv", ":vsplit<Return>", { silent = true, noremap = true, desc = "Split view Vertical" })
 
 -- Inc rename
-map({ "n", "i" }, "<leader>rn", ":IncRename ", { desc = "Rename variable" })
+map({ "n" }, "<leader>rn", ":IncRename ", { desc = "Rename variable" })
+
+-- select entire word
+map({ "n" }, "<C-d>", "viw", { desc = "Select entire word" })
