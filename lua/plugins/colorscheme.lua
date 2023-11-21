@@ -13,6 +13,14 @@ return {
   { "haishanh/night-owl.vim", name = "night-owl" },
 
   {
+    "ayu-theme/ayu-vim",
+    lazy = false,
+    config = function()
+      vim.g.ayucolor = "dark"
+    end,
+  },
+
+  {
     "folke/tokyonight.nvim",
     lazy = false,
     opts = {},
